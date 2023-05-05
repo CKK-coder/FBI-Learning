@@ -196,8 +196,7 @@ class AVA(data.Dataset):
 
     def __getitem__(self, index):
         path = os.path.join(self.root_path, self.data[index]['video'])
-        #frame_format = self.data[index]['format_str']
-        frame_format = '%05d.jpg'
+        frame_format = self.data[index]['format_str']
         start_frame = self.data[index]['start_frame']
         n_frames = self.data[index]['n_frames']
         mid_time = str(self.data[index]['time'])
