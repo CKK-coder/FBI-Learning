@@ -1,15 +1,4 @@
-r"""Compute action detection performance for the AVA dataset.
 
-Please send any questions about this code to the Google Group ava-dataset-users:
-https://groups.google.com/forum/#!forum/ava-dataset-users
-
-Example usage:
-python -O calc_mAP.py \
-  -l ava/ava_action_list_v2.2_for_activitynet_2019.pbtxt.txt \
-  -g ava_val_v2.2.csv \
-  -e ava_val_excluded_timestamps_v2.2.csv \
-  -d your_results.csv
-"""
 
 from __future__ import absolute_import
 from __future__ import division
