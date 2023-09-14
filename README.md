@@ -14,7 +14,7 @@
 可以参考 [这里](https://github.com/open-mmlab/mmaction2/tree/0.x/tools/data/ava) 准备AVA数据集。
 ### 标注准备
 - 从 [这里](https://research.google.com/ava/download.html#ava_actions_download) 下载官方标注文件。
-- 下载 AVA [训练标注](https://drive.google.com/file/d/1CsCUVxdxVyZ5vUM2eGzzV42wzKxPa7bK/view) and [验证标注](https://drive.google.com/file/d/1uTlgYtR_zt85JCx-HoqNNXWwCilUTd9w/view) 。
+- 下载 AVA [训练标注](https://drive.google.com/file/d/1CsCUVxdxVyZ5vUM2eGzzV42wzKxPa7bK/view) 和 [验证标注](https://drive.google.com/file/d/1uTlgYtR_zt85JCx-HoqNNXWwCilUTd9w/view) 。
 - 将这些标注文件放置''annotations''文件夹下.
 ### 预训练权重
 从 [SlowFast model pre-trained](https://drive.google.com/file/d/1qDdAntE5Onh7btniftOL8MrbsD7OIqj4/view) 下载在K-700 数据集上的预训练权重并放置''pretrained''文件夹下。
